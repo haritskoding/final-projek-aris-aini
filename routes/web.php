@@ -21,4 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('question', 'QuestionController');
 
 Route::resource('question', 'QuestionModelController');
+
+Route::post('answer', 'AnswerController@answer');
+
 Route::get('/home', 'HomeController@index')->name('home');

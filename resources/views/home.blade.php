@@ -15,6 +15,7 @@
                     @endif
                     Anda Login Sebagai <h3>{{ Auth::user()->name}}</h3>
                     Selamat datang di website kita
+
                 </div>
             </div>
         </div>
